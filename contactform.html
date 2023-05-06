@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactstyle.css">
+    
+</head>
+<body>
+    <form class="contact" action="connect.php" method="post">
+        <h1 id="contactus">Contact Us</h1>
+        <h3>Name : * <input type="text" placeholder="Abhishek Bochare" required name="name"></h3>
+        <h3>Contact Number : * <input type="Number" placeholder="95421*****" required name="number"></h3>
+        <fieldset>
+        <legend>
+            <h3>Gender : </h3> 
+            <p> <input type="radio" name="gender" value="M">Male
+                 <input type="radio" name="gender" value="female" value="F">Female
+                 <input type="radio" name="gender" value="other" value="O">Other
+                </p>
+        </legend>
+        </fieldset> 
+        <h3 >Email : *<input type="Email" required placeholder="abhi******re@gmail.com" name="email" ></h3>
+        <h3 >Address : 
+            <textarea placeholder="Enter your address"   id="Address" cols="50" rows="3" required name="address"></textarea>
+        </h3>
+        <h3 >Write something for us : *
+            <textarea placeholder="Write something"   id="something" cols="50" rows="4" required name="something"></textarea></h3>
+        <div action="thanku.html">
+            <button href="thanku.html" id="button" >Submit</button>
+        </div>
+        <a href="index.html">Click here to go back to the homepage.</a>
+    </form>
+</body>
+<footer>
+    copyright &copy; All rights are reserved by just for us.
+</footer>
+</html>
